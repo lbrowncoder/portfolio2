@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
+        <div  id='contact'>
             <p>Connect with me</p>
             <img src="/images/location.svg" height='30px' width='30px' />  
             <p>West Midlands, England</p>

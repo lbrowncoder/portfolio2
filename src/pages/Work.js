@@ -3,6 +3,7 @@ import React from 'react'
 const Work = () => {
     return (
         <>
+        <div id='work'>
         <div class="card" style={{width: "18rem"}}>
         <h5 class="card-title">Eggsshells</h5>
         <img class="card-img-top" src="..." alt="Card image cap" />
@@ -58,6 +59,7 @@ const Work = () => {
             <li>HTML</li>
         </ul>
         </div>
+      </div>
       </div>
       </>
     )

@@ -10,16 +10,19 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
 import Home from './pages/Home';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <Router>
      <Switch>
+  
      <Route
      exact
      path='/'
      render={() => (
       <React.Fragment>
+        <ScrollToTop />
         <Navbar />
         <Home />
         <About />

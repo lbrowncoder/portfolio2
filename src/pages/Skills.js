@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div>
+        <div  id='about'>
             <p>Technologies Used</p>
             <img src="/images/nodejs-icon.svg"  height='30px' width='30px' />  
             <p>Node Js</p>
